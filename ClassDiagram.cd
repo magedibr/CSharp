@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AM_MT.User">
+    <Position X="3" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAAgAAABAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AM_MT.UserList">
+    <Position X="6" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAAAAAAAAAAAAAAAAAIABAEAAAAAAAAAAg=</HashCode>
+      <FileName>UserList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="User_sign_in" Height="450" Width="800">
     <Grid>
-        
+        <Grid Background="#FF15719C" Margin="0,3,0,-3">
+            <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="363,182,0,0" VerticalAlignment="Top" Width="269" Height="35" PasswordChanged="ButtonConditions"/>
+            <TextBox x:Name="UserIdInput" HorizontalAlignment="Left" Margin="363,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" Height="36"/>
+            <Button x:Name="LoginButton" Content="Log in" HorizontalAlignment="Left" Margin="209,267,0,0" VerticalAlignment="Top" Width="314" Height="54" FontSize="20" FontWeight="Bold" />
+            <Label Content="User ID" HorizontalAlignment="Left" Margin="141,112,0,0" VerticalAlignment="Top" Height="55" Width="155" FontSize="25" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.916"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.874"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label Content="Password" HorizontalAlignment="Left" Margin="142,172,0,0" VerticalAlignment="Top" Height="55" Width="169" FontSize="25" FontWeight="Bold"/>
+        </Grid>
+
     </Grid>
 </Window>

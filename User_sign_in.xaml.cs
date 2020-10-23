@@ -17,9 +17,31 @@ namespace AM_MT
     /// </summary>
     public partial class User_sign_in : Window
     {
+
+       // private UserList usersList;
+        
+                    
+        
         public User_sign_in()
         {
             InitializeComponent();
+            this.LoginButton.IsEnabled = false;
+                   }
+
+        public void ButtonConditions(object sender, RoutedEventArgs e) {
+
+            if (this.UserIdInput.Text != "" && !String.IsNullOrWhiteSpace(PasswordBox.Password)) {
+                Console.WriteLine("true");
+                this.LoginButton.IsEnabled = true; }
+            else
+            {
+                this.LoginButton.IsEnabled = false;
+
+            }
+
         }
-    }
+        
+        
+
+         }
 }

@@ -27,7 +27,7 @@ namespace AM_MT
         public int UserID { get; set; }
 
 
-        //Over ridden string method, no need for the word base as there is no extensions/interfaces involved.
+        //Over ridden string method, no need for the word base as there are no extensions/interfaces involved.
         public override string ToString()
         {
             return $"First Name:{FirstName}+ Last Name:{LastName}";
