@@ -12,6 +12,7 @@ namespace AM_MT
         //Defined User Constructor
         public User(string firstName, string lastName, string userPass, int userID)
         {
+        //    if(userPass.Length!= 5) { }
             this.FirstName = firstName;
             this.LastName = lastName;
             this.UserPass = userPass;
@@ -26,7 +27,7 @@ namespace AM_MT
         public int UserID { get; set; }
 
 
-        //Over ridden string method
+        //Over ridden string method, no need for the word base as there is no extensions/interfaces involved.
         public override string ToString()
         {
             return $"First Name:{FirstName}+ Last Name:{LastName}";
